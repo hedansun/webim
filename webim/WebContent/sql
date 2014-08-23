@@ -1,0 +1,37 @@
+CREATE TABLE t_friends(
+id INT PRIMARY KEY AUTO_INCREMENT ,
+puid INT,
+uid INT,
+TYPE INT
+);
+
+
+CREATE TABLE t_userinfo(
+id INT  PRIMARY KEY AUTO_INCREMENT,
+isOnline VARCHAR(100),
+UserAvatar VARCHAR(100),
+cname VARCHAR(100),
+UserName VARCHAR(100)
+);
+
+CREATE TABLE t_chats(
+id INT PRIMARY KEY AUTO_INCREMENT,
+pid INT,
+uid INT,
+d DATETIME ,
+m VARCHAR(4000)
+);
+
+INSERT INTO t_friends(puid,uid,TYPE) VALUES(1,2,0);
+INSERT INTO t_friends(puid,uid,TYPE) VALUES(2,1,0);
+COMMIT;
+
+INSERT INTO t_userinfo(isOnline,UserAvatar,cname,UserName) VALUES ('online','img/noavatar_s.png','china','usa');
+INSERT INTO t_userinfo(isOnline,UserAvatar,cname,UserName) VALUES ('online','temp/9.jpg','china','usb');
+
+SELECT * FROM t_friends;
+SELECT * FROM t_userinfo;
+SELECT * FROM t_chats;
+-------------------------------------------------------
+DELETE FROM t_chats;
+UPDATE t_friends SET puid=1 WHERE id=2
