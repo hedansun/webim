@@ -41,7 +41,6 @@
                         },function(){//展开联l系人面板
                             $("#fn_imbox").animate({height: 360}, 800);
                         });
-
                         //修改资料
                         $("#fn_imbox .im_top a.modify").click(function(){
                             $.ajax({url:"ajax/msgbox.html",dataType:"html",success:function(data){
@@ -172,6 +171,7 @@
                                 message("登录面板获取失败！CODE:"+XMLHttpRequest.status);
                             }});
                         }
+                        
                         //加载聊天窗口
                         $.ajax({url:"ajax/im_window.html",dataType:"html",success:function(data){
                             if(options.defaultWindow!=""){
@@ -194,11 +194,6 @@
                                     }
                                 });
                             }
-                            
-                            $("d-title").live("click",function(){
-                                alert(1);
-                                //time1
-                            });
                         },error:function(XMLHttpRequest, textStatus, errorThrown){
                             message("对不起，聊天窗口加载失败！ CODE:"+XMLHttpRequest.status);
                         }});
@@ -239,6 +234,7 @@
                         });
 
                     }
+                  
                     /****打开新聊天窗口****/
                     function openWindow(cid,uid,o,a,n,c,m){
                     	if(timeexists==1){

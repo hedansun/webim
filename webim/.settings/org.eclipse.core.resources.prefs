@@ -1,8 +1,8 @@
 eclipse.preferences.version=1
-encoding//WebContent/ajax/card.html=UTF-8
-encoding//WebContent/ajax/im_contact.html=UTF-8
-encoding//WebContent/ajax/im_window.html=UTF-8
-encoding//WebContent/ajax/msgbox.html=UTF-8
-encoding//WebContent/ajax/share.html=UTF-8
 encoding//WebContent/index.jsp=UTF-8
+encoding//WebContent/js/webim/ajax/card.html=UTF-8
+encoding//WebContent/js/webim/ajax/im_contact.html=UTF-8
+encoding//WebContent/js/webim/ajax/im_window.html=UTF-8
+encoding//WebContent/js/webim/ajax/msgbox.html=UTF-8
+encoding//WebContent/js/webim/ajax/share.html=UTF-8
 encoding/<project>=UTF-8

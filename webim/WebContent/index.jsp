@@ -5,9 +5,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>即时通讯示例--自动登录</title>
-<script type="text/javascript" src="${pageContext.request.contextPath }/js/jQuery-1.7.1.min.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath }/js/im.plus.js?skin=im"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath }/js/jQuery.im.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath }/js/webim/jQuery-1.7.1.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath }/js/webim/im.plus.js?skin=im"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath }/js/webim/jQuery.im.js"></script>
 <script type="text/javascript">
 	var time1;
     $(function() {
@@ -29,6 +29,6 @@
 </script>
 </head>
 <body>
-<a class="oWindow" uid="1" style="display:block;width:90px;margin:20px;cursor: pointer;"><img src="img/imonline.png" /></a>
+<a class="oWindow" uid="1" style="display:block;width:90px;margin:20px;cursor: pointer;"><img src="js/webim/img/imonline.png" /></a>
 </body>
 </html>
