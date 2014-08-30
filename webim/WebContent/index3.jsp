@@ -4,11 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>即时通讯示例--自动登录</title>
+<title></title>
 <script type="text/javascript" src="${pageContext.request.contextPath }/js/jQuery-1.7.1.min.js"></script>
 <script type="text/javascript">
 $(function (){
-
 	msgList(1,2);
 	$('#messagelab').scroll(function(){
 		var nScrollHight = $(this)[0].scrollHeight;
